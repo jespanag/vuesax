@@ -379,7 +379,7 @@
           };
         }
 
-        xhr.withCredentials = true;
+        xhr.withCredentials = false;
 
         xhr.open('POST', this.action, true);
 
